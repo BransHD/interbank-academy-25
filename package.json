@@ -4,10 +4,12 @@
   "description": "Prueba tecnica de codeable x interbank de Procesamiento de Transacciones Bancarias (CLI)",
   "main": "index.js",
   "dependencies": {
+    "csv-parse": "^5.6.0",
     "nodemon": "^3.1.10"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon --watch index.js"
   },
   "repository": {
     "type": "git",
