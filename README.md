@@ -2,7 +2,7 @@
 
 ## Introducción
 
-El siguiente programa tiene como proposito leer un archivo .csv con bastantes bastantes datos de transacciones bancarias de tipo Débito y Crédito y su respectivo monto, despues de analizar cada transacción se muestra en consola un reporte de los 3 puntos del desafio (Ver objetivo)
+El siguiente programa tiene como proposito leer un archivo .csv con bastantes datos de transacciones bancarias de tipo Débito y Crédito y su respectivo monto, despues de analizar cada transacción se muestra en consola un reporte de los 3 puntos del desafio (Ver objetivo)
 
 ## Objetivo:
 
@@ -44,11 +44,12 @@ Desarrolla una aplicación de línea de comandos (CLI) que procese un archivo CS
 
 ## Enfoque y solución
 
-Se opto por usar la librería fs para poder leer el archivo data.csv y asu vez la librería csv-parse, para transformar el archivo a un formato en el que se pueda leer las columnas y poder leer cada fila para obtener como resultado un reporte final de las transacciones
+Se opto por usar la librería fs para poder leer el archivo data.csv y a su vez la librería csv-parse, para transformar el archivo a un formato en el que se pueda leer las columnas y poder leer cada fila para obtener como resultado un reporte final de las transacciones
 
 ## Estructura del proyecto
 
 El proyecto se conforma por:
+
 - index.js (Ejecución del programa principal)
 - data.csv (Fuente de datos)
 - package.json (Dependencias e información del proyecto)
